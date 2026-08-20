@@ -1,0 +1,26 @@
+Experiment 2: LED Brightness Control
+
+Objective:
+To control LED brightness using PWM.
+
+Components Used:
+- STM32 NUCLEO-F446RE
+- LED
+
+Procedure:
+1. Configure a timer (TIM2) in PWM mode.
+2. Set appropriate frequency and duty cycle.
+3. Generate code.
+4. Vary duty cycle in a loop to change brightness.
+
+Code Explanation:
+PWM signal is generated and duty cycle is varied to increase and decrease brightness.
+
+Output:
+LED brightness gradually increases and decreases.
+
+Result:
+Successfully controlled LED brightness using PWM.
+
+Learning Outcome:
+Understood PWM generation and duty cycle control.
