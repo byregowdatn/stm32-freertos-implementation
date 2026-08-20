@@ -1,0 +1,27 @@
+Experiment 3: UART Transmission
+
+Objective:
+To send data from STM32 to PC using UART.
+
+Components Used:
+- STM32 NUCLEO-F446RE
+- USB Cable
+- PC with PuTTY
+
+Procedure:
+1. Enable USART2 in CubeMX.
+2. Set baud rate to 115200.
+3. Generate code.
+4. Use HAL_UART_Transmit() to send data.
+
+Code Explanation:
+Data is transmitted repeatedly using UART in a loop.
+
+Output:
+Text is displayed continuously on the terminal.
+
+Result:
+Successfully transmitted data via UART.
+
+Learning Outcome:
+Learned UART communication and serial interfacing.
