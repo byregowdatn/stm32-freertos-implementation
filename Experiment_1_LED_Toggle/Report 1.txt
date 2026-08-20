@@ -1,0 +1,27 @@
+Experiment 1: LED Toggle
+
+Objective:
+To identify and toggle the onboard LED on STM32 NUCLEO-F446RE board.
+
+Components Used:
+- STM32 NUCLEO-F446RE
+- USB Cable
+
+Procedure:
+1. Open STM32CubeMX and select the board.
+2. Configure PA5 as GPIO Output (onboard LED).
+3. Generate code using STM32CubeIDE.
+4. Write code using HAL_GPIO_TogglePin().
+5. Add delay using HAL_Delay().
+
+Code Explanation:
+The LED is toggled using HAL_GPIO_TogglePin with a delay of 500 ms.
+
+Output:
+LED blinks ON and OFF continuously.
+
+Result:
+Successfully toggled the onboard LED.
+
+Learning Outcome:
+Understood GPIO configuration and basic embedded programming.
