@@ -1,0 +1,28 @@
+Experiment 6: FreeRTOS Multitasking
+
+Objective:
+To create concurrent tasks using FreeRTOS.
+
+Components Used:
+- STM32 NUCLEO-F446RE
+
+Procedure:
+1. Enable FreeRTOS in CubeMX.
+2. Create two tasks:
+   - LED Task
+   - Monitor Task
+3. Generate code.
+4. Implement task functions.
+
+Code Explanation:
+LED task toggles LED every 500 ms.
+Monitor task sends "System Alive" via UART every 5 seconds.
+
+Output:
+LED blinks and UART prints messages simultaneously.
+
+Result:
+Successfully implemented multitasking using FreeRTOS.
+
+Learning Outcome:
+Understood task scheduling and real-time operating systems.
