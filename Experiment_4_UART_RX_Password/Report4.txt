@@ -1,0 +1,26 @@
+Experiment 4: UART Password Validation
+
+Objective:
+To receive password via UART and validate it.
+
+Components Used:
+- STM32 NUCLEO-F446RE
+- PC terminal
+
+Procedure:
+1. Configure UART (USART2).
+2. Send "Enter Password" prompt.
+3. Receive input using HAL_UART_Receive().
+4. Compare received password with stored value.
+
+Code Explanation:
+Received string is compared with predefined password using string comparison.
+
+Output:
+Displays "Correct Password" or "Wrong Password".
+
+Result:
+Successfully implemented UART-based password system.
+
+Learning Outcome:
+Understood UART RX and string handling in embedded systems.
