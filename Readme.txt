@@ -2,11 +2,6 @@ Embedded Systems Laboratory Experiments
 
 This submission contains a set of six embedded systems experiments implemented using the STM32 NUCLEO-F446RE development board. The experiments cover fundamental concepts such as GPIO control, PWM, UART communication, I2C interfacing, and multitasking using FreeRTOS.
 
-Team Members
-Navyashree S J - 1NT23EC092
-Goutham P      - 1NT23EC060
-ByreGowda T N  - 1NT23EC033
-
 Hardware Used
 STM32 NUCLEO-F446RE Board
 OLED Display (SSD1306 – I2C)
