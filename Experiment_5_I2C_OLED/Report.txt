@@ -1,0 +1,26 @@
+Experiment 5: I2C OLED Display
+
+Objective:
+To interface OLED display using I2C and display text.
+
+Components Used:
+- STM32 NUCLEO-F446RE
+- SSD1306 OLED Display
+
+Procedure:
+1. Enable I2C1 in CubeMX.
+2. Connect SDA and SCL pins to OLED.
+3. Generate code.
+4. Send commands and data to OLED using I2C.
+
+Code Explanation:
+OLED is initialized and text is displayed using I2C communication.
+
+Output:
+Text is displayed on OLED screen.
+
+Result:
+Successfully interfaced OLED display.
+
+Learning Outcome:
+Learned I2C communication and display interfacing.
